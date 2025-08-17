@@ -1,6 +1,7 @@
 
 📸 Screenshot
 
+<img width="1897" height="862" alt="Screenshot 2025-08-17 203053" src="https://github.com/user-attachments/assets/ec844fb7-9bd5-4c70-9628-61c08345bfd5" />
 
 # 🥢 La Vista Restaurant Website
 
