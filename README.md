@@ -1,33 +1,74 @@
-<img width="1910" height="860" alt="Screenshot 2025-08-07 190043" src="https://github.com/user-attachments/assets/b3f36c8e-9f33-4430-8d46-eea6e4a00be7" />
+
+📸 Screenshot
 
 
-  Sample Layout
-  
-  # The-Laundry-Lab
-  
-This my Assignment 2 that was given by tutedude.com 
+# 🥢 La Vista Restaurant Website
 
+Welcome to the official repository for **La Vista**, an elegant and modern Chinese restaurant website. This project showcases a beautifully designed front-end experience that reflects the rich flavors and ambiance of La Vista's authentic Chinese cuisine.
 
-# 🧼 Laundry Service Landing Page
+## 🌟 Live Preview
 
-A clean and responsive landing page for a laundry service business. This project features a modern navigation bar and a hero section designed to fit perfectly within the viewport, offering users a seamless first impression.
+> _Coming Soon_ — Host this project on GitHub Pages or Netlify for a live demo!
 
- 🚀 Features
+---
 
- ✅ Navigation Bar
-- Logo aligned to the left
-- Navigation links: **Home**, **Services**, **About Us**, **Contact Us**
-- User's name displayed on the right
+## 📌 Features
 
- ✅ Hero Section
-- Split into two responsive divs:
-  - **Left Div**:
-    - Bold heading
-    - Brief description
-    - Call-to-action button: _Book a Service Today_
-  - **Right Div**:
-    - Image related to laundry services (e.g., washing machine, folded clothes)
-- Uses **viewport units** (`vh`, `vw`) to ensure the section fits the screen without scrolling
+- 🎯 **Hero Section** with a bold welcome message and call-to-action buttons
+- 📋 **Navigation Bar** with smooth scrolling to Home, Menu, About, and Contact sections
+- 🍜 **Menu Showcase** featuring signature Chinese dishes with descriptions and pricing
+- 🎨 **Responsive Design** optimized for desktop and mobile devices
+- ✨ **Hover Effects** and subtle animations for interactive user experience
 
+---
 
+## 🛠️ Technologies Used
 
+| Technology | Purpose |
+|------------|---------|
+| HTML5      | Structure and content |
+| CSS3       | Styling and layout |
+| Google Fonts | Custom typography (`Martel Sans`, `Hind`, `Oxygen`) |
+| Pexels     | Background imagery for hero section |
+
+---
+
+## 📂 Folder Structure
+
+la-vista-restaurant/ │ 
+├── index.html # Main HTML file
+├── style.css # External stylesheet (linked in HTML) 
+├── README.md # Project documentation 
+├── assets/ # (Optional) Folder for images, icons, etc.
+
+---
+
+## 🚀 How to Run Locally
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/la-vista-restaurant.git
+
+📌 Future Enhancements
+🧾 Add more menu categories (Main Course, Desserts, Beverages)
+
+📱 Improve mobile responsiveness with media queries
+
+📧 Add a functional contact form
+
+🗺️ Integrate Google Maps for location
+
+🛒 Add online ordering or reservation system
+
+🙌 Credits
+Background image from Pexels
+
+Fonts from Google Fonts
+
+Designed and developed by [DM]
+
+📃 License
+This project is open-source.
+---
+
+Let me know if you'd like help customizing the license, adding deployment instructions, or integrating JavaScript features!
