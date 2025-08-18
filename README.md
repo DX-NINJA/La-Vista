@@ -9,9 +9,8 @@ Welcome to the official repository for **La Vista**, an elegant and modern Chine
 
 ## 🌟 Live Preview
 
-> _Coming Soon_ — Host this project on GitHub Pages or Netlify for a live demo!
-
----
+> _Coming Soon_ 
+-------------------
 
 ## 📌 Features
 
