@@ -37,8 +37,11 @@ Welcome to the official repository for **La Vista**, an elegant and modern Chine
 
 la-vista-restaurant/ │ 
 ├── index.html # Main HTML file
+
 ├── style.css # External stylesheet (linked in HTML) 
+
 ├── README.md # Project documentation 
+
 ├── assets/ # (Optional) Folder for images, icons, etc.
 
 ---
