@@ -36,6 +36,7 @@ Welcome to the official repository for **La Vista**, an elegant and modern Chine
 ## 📂 Folder Structure
 
 la-vista-restaurant/ │ 
+
 ├── index.html # Main HTML file
 
 ├── style.css # External stylesheet (linked in HTML) 
