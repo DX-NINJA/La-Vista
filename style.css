@@ -227,16 +227,12 @@ body {
   height: 500px;
   width: 100%;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  transition: all 0.9s ease;
 }
-
-/* Base .about-content styling with Grid */
-/* .about-content {
-  margin-top: 0.1rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20vh;
-  margin-bottom: 5rem;
-} */
+.about-image img:hover{
+  cursor: pointer;
+  transform: translateY(-10px);
+}
 
 .boldd{
   color: crimson;
@@ -244,3 +240,84 @@ body {
   font-weight: 800;
 
 }
+
+/* footer start here  */
+
+.contact{
+  padding: 5rem 0;
+  background-color: #f8f6f0;
+
+}
+.contact-content{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+
+}
+.contact-info h3 , .contact-form h3{
+  font-size: 1.5rem;
+margin-bottom: 1.5rem;
+color: #2c3e50;
+}
+
+.contact-item{
+  margin-bottom: 1rem;
+
+}
+.contact-item strong{
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #2c3e50;
+}
+.from-group{margin-bottom: 1.5rem;
+
+}
+
+.from-group label{
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #2c3e50;
+
+}
+.from-group input,
+.from-group select,
+.from-group textarea{
+  width: 100%;
+  padding: 0.75rem;
+  border: 2px solid white;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.from-group input:hover,
+.from-group select:hover,
+.from-group textarea:hover{
+  background-color: #f8f6f0;
+  color: #000000;
+} 
+ .from-group input:focus,
+.from-group select:focus,
+.from-group textarea:focus{
+  outline: none;
+  border-color: #ff9913;}
+  
+   .secondary1 {
+  color: #1b1501;
+  background-color:#f8f6f0;
+  border: none ;
+  padding: 1rem;
+  border-radius: 50px;
+  box-shadow: 1px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+.secondary1:hover {
+  transform: translateY(2px);
+  box-shadow:none;
+  background-color: #ff9913;
+  color: #f8f6f0;
+}   
+
+/* footer start next */
