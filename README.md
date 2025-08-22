@@ -9,7 +9,7 @@ Welcome to the official repository for **La Vista**, an elegant and modern Chine
 
 ## 🌟 Live Preview
 
-> https://lavista.netlify.app/
+> ![La Vista Website Snapshot](https://lavista.netlify.app/…)
 -------------------
 
 ## 📌 Features
