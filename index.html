@@ -13,6 +13,7 @@
       href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Oxygen:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   </head>
 
   <body>
@@ -168,21 +169,107 @@
               <h3>More Than a Restaurant</h3>
               <p>
                 La Vista is a place where stories are shared over steaming bowls
-              of noodles, where laughter echoes between bites of dim sum, and
-              where every guest is treated like family. We’re not just serving
-              food—we’re creating experiences.
+                of noodles, where laughter echoes between bites of dim sum, and
+                where every guest is treated like family. We’re not just serving
+                food—we’re creating experiences.
               </p>
               <p>
-              <span class="boldd"> “Feel Lucky In Every Bite” </span> is more
-              than a motto. It’s the heart of our journey, and the soul of every
-              plate we serve.
-            </p>
+                <span class="boldd"> “Feel Lucky In Every Bite” </span> is more
+                than a motto. It’s the heart of our journey, and the soul of
+                every plate we serve.
+              </p>
             </div>
           </div>
         </div>
       </section>
 
-      <div id="Contact" class="contact"></div>
+
+      
+    <!-- footer page -->
+    
+    <div id="Contact" class="contact">
+        <div class="container">
+          <h2 class="section-title">Contact Us</h2>
+          <div class="contact-content">
+            <div class="contact-info">
+              <h3>Get In Touch</h3>
+              <div class="contact-item">
+                <strong>Address:</strong>
+                <p>123 Italian Street,City Center 62585</p>
+              </div>
+              <div class="contact-item">
+                <strong>Phone:</strong>
+                <p>(+91)1234567890</p>
+              </div>
+              <div class="contact-item">
+                <strong>Email:</strong>
+                <p>contact.lavista.support@gmail.com</p>
+              </div>
+            </div>
+
+            <div class="contact-form">
+              <h3>Make a Reservation</h3>
+              <form>
+                <div class="from-group">
+                  <label for="name">Full Name:</label>
+                  <input type="name" id="name" name="name" required />
+                </div>
+
+                <div class="from-group">
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" required />
+                </div>
+
+                <div class="from-group">
+                  <label for="phone">Phone:</label>
+                  <input type="tel" id="phone" name="phone" />
+                </div>
+
+                <div class="from-group">
+                  <label for="date">Reservation Date:</label>
+                  <input type="date" id="date" name="date" required />
+                </div>
+
+                <div class="from-group">
+                  <label for="time">Time:</label>
+                  <select name="time" id="time" required>
+                    <option value="">Select Time</option>
+                    <option value="18.00">06.00 PM</option>
+                    <option value="19.00">07.00 PM</option>
+                    <option value="20.00">08.00 PM</option>
+                    <option value="21.00">09.00 PM</option>
+                    <option value="22.00">10.00 PM</option>
+                    <option value="23.00">11.00 PM</option>
+                  </select>
+                </div>
+
+                <div class="from-group">
+                  <label for="guest">Number Of Guest:</label>
+                  <select name="guest" id="guest" required>
+                    <option value="">Select Guest</option>
+                    <option value="1">1 Guest</option>
+                    <option value="2">2 Guest</option>
+                    <option value="3">3 Guest</option>
+                    <option value="4">4 Guest</option>
+                    <option value="5">5+ Guest</option>
+                  </select>
+                </div>
+
+                <div class="from-group">
+                  <label for="message">Special Requests:</label>
+                  <textarea name="message"
+                    id="message"
+                    rows="4"
+                    placeholder="Any special dietary requirements or requests..."></textarea>
+                </div>
+
+                <button type="submit"class="btn btn-primary ">Submit Reservation</button>
+                <button type="reset" class="secondary1">Reset</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
   </body>
 </html>
