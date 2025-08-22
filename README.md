@@ -58,9 +58,9 @@ la-vista-restaurant/ │
 
 📱 Improve mobile responsiveness with media queries
 
-📧 Add a functional contact form
+📧 Add a functional contact form ✅ ( On Version 1.1.0 – Contact & Footer Integration Update)
 
-🗺️ Integrate Google Maps for location
+🗺️ Integrate Google Maps for location and integrating JavaScript features!
 
 🛒 Add online ordering or reservation system
 
@@ -76,3 +76,33 @@ This project is open-source.
 ---
 
 Let me know if you'd like help customizing the license, adding deployment instructions, or integrating JavaScript features!
+
+## 📜 Changelog
+
+### ✅ Version 1.1.0 – Contact & Footer Integration Update  
+**Date:** August 22, 2025  
+**Author:** DM  
+
+🔧 **HTML Changes**
+- Added `<link rel="icon">` for 16x16 favicon support.  
+- Introduced new `#Contact` section with:  
+  - Contact information block (address, phone, email).  
+  - Reservation form with fields for name, email, phone, date, time, guest count, and special requests.  
+- Enhanced semantic structure with `<h2>` and `<h3>` headings.  
+- Improved accessibility with `label` elements and required attributes.  
+
+🎨 **CSS Changes**
+- Created `.contact` and `.contact-content` styles using CSS Grid for layout.  
+- Styled `.contact-info` and `.contact-form` headings and items with consistent typography and spacing.  
+- Designed `.from-group` styles for form inputs, selects, and textarea:  
+  - Hover and focus effects for better UX.  
+  - Rounded borders and padding for clean form appearance.  
+- Added `.secondary1` button styling:  
+  - Soft background with hover transition.  
+  - Subtle shadow and transform effects for interactivity.  
+
+🧹 **Cleanup & Optimization**
+- Removed duplicate `#Contact` div to avoid redundancy.  
+- Commented out unused `.about-content` grid layout for future reference.  
+- Ensured consistent use of class names and indentation.  
+
