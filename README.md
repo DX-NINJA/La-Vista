@@ -79,4 +79,76 @@ Let me know if you'd like help customizing the license, adding deployment instru
 
 ## 📜 Changelog
 
+### ✅ Version 1.2.0 – SEO & Animation Enhancement Update
+**Date**: August 24, 2025
+**Author:** DM
+
+🔧 **HTML Changes**
+
+- Added SEO meta tags:
+
+- `og:title` , `og:description `, `og:image` , `og:url` .
+
+- twitter:card support (`summary_large_image`).
+
+- keywords and updated description.
+
+- Improved `<title>` for branding & search engine ranking.
+
+
+**🎨 CSS Changes**
+
+- Refined hero section with gradient overlay & text centering.
+
+- Added fadeInUp and slideInLeft animations for:
+
+- Hero content.
+
+- Menu item cards with staggered delay.
+
+- Section titles with smooth reveal effect.
+
+- Updated menu item hover effect with shadow + upward lift.
+
+- Enhanced About Us section with alternating grid layout (`image + text`).
+
+- Improved responsive design for smaller screens (  `max-width: 768px` ).
+
+🧹**Cleanup & Optimization**
+
+- Organized animation keyframes for readability.
+
+- Unified color scheme with CSS variables (`--primary-color` , `--secondary-color`).
+
+- Fixed navbar alignment on smaller devices.
+
+- Optimized form element hover/focus states for accessibility.
+
+
+### ✅ **Version 1.1.0** – Contact & Footer Integration Update  
+**Date:** August 22, 2025  
+**Author:** DM  
+
+🔧 **HTML Changes**
+- Added `<link rel="icon">` for 16x16 favicon support.  
+- Introduced new `#Contact` section with:  
+  - Contact information block (address, phone, email).  
+  - Reservation form with fields for name, email, phone, date, time, guest count, and special requests.  
+- Enhanced semantic structure with `<h2>` and `<h3>` headings.  
+- Improved accessibility with `label` elements and required attributes.  
+
+🎨 **CSS Changes**
+- Created `.contact` and `.contact-content` styles using CSS Grid for layout.  
+- Styled `.contact-info` and `.contact-form` headings and items with consistent typography and spacing.  
+- Designed `.from-group` styles for form inputs, selects, and textarea:  
+  - Hover and focus effects for better UX.  
+  - Rounded borders and padding for clean form appearance.  
+- Added `.secondary1` button styling:  
+  - Soft background with hover transition.  
+  - Subtle shadow and transform effects for interactivity.  
+
+🧹 **Cleanup & Optimization**
+- Removed duplicate `#Contact` div to avoid redundancy.  
+- Commented out unused `.about-content` grid layout for future reference.  
+- Ensured consistent use of class names and indentation.  
 
