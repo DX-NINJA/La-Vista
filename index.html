@@ -4,6 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
+      property="og:title"
+      content="La Vista Restaurant | Authentic Chinese Cuisine"
+    />
+    <meta
+      property="og:description"
+      content="Feel Lucky In Every Bite – Experience authentic Chinese food at La Vista."
+    />
+    <meta
+      property="og:image"
+      content="https://lavista.netlify.app/assets/preview.jpg"
+    />
+    <meta property="og:url" content="https://lavista.netlify.app/" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="keywords" content="La Vista, Chinese Restaurant, Dim Sum, Noodles, Authentic Chinese Cuisine"> 
+    <meta
       name="description"
       content="La Vista offers authentic Chinese vibes, pro-chef dishes, top-notch service, and a huge variety of flavorful options to delight every taste."
     />
@@ -13,10 +28,12 @@
       href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Oxygen:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
   </head>
 
   <body>
+   
     <header id="header">
       <div class="container">
         <nav id="navbar">
@@ -119,6 +136,7 @@
               />
             </div>
           </div>
+         
           <!-- From Humble Beginnings -->
           <div class="about-content">
             <div class="about-image">
@@ -183,11 +201,9 @@
         </div>
       </section>
 
+      <!-- footer page -->
 
-      
-    <!-- footer page -->
-    
-    <div id="Contact" class="contact">
+      <div id="Contact" class="contact">
         <div class="container">
           <h2 class="section-title">Contact Us</h2>
           <div class="contact-content">
@@ -257,20 +273,26 @@
 
                 <div class="from-group">
                   <label for="message">Special Requests:</label>
-                  <textarea name="message"
+                  <textarea
+                    name="message"
                     id="message"
                     rows="4"
-                    placeholder="Any special dietary requirements or requests..."></textarea>
+                    placeholder="Any special dietary requirements or requests..."
+                  ></textarea>
                 </div>
 
-                <button type="submit"class="btn btn-primary ">Submit Reservation</button>
+                <button type="submit" class="btn btn-primary">
+                  Submit Reservation
+                </button>
                 <button type="reset" class="secondary1">Reset</button>
               </form>
             </div>
-          <!-- footer -->
+            <!-- footer -->
           </div>
         </div>
       </div>
     </main>
+   
+    <script src="script.js"></script>
   </body>
 </html>
